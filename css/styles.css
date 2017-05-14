@@ -23,7 +23,12 @@ h1 {
 .img-fluid img{
   width: 100%;
   height: auto;
+}
 
+footer a {
+  color: #555;
+  font-family: "Georgia",Times,serif;
+  font-size: 12px;
 }
 
 /*
