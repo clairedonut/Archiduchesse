@@ -29,13 +29,14 @@
 
     <body>
 
-      <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <nav class="navbar fixed-top navbar-toggleable-md navbar-light bg-faded">
+        <button class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
         <!-- Brand -->
-        <a class="navbar-brand" href="#"><img class="logo-img" src="img/logo.svg" alt="logo" /></a>
+        <a class="navbar-brand hidden-lg-up" href="#"><img class="logo-img float-right" src="img/logo.svg" alt="logo" /></a>
+        <a class="navbar-brand hidden-lg-down" href="#"><img class=" img-fluid float-left" src="img/logo.svg" alt="logo" /></a>
 
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
@@ -49,32 +50,42 @@
               <a class="nav-link" href="#">Info</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
+              <a class="nav-link" href="#">Atelier</a>
             </li>
           </ul>
         </div>
       </nav>
 
-        <div class="container">
-            <section class="row">
-              <h1 class="col-12">Chaussettes de ville</h1>
-              <div class="btn-toolbar mr-2" role="toolbar" aria-label="Toolbar with button groups">
-                <div class="btn-group mr-" role="group" aria-label="First group">
-                  <button type="button" class="btn btn-secondary">Toutes</button>
-                  <button type="button" class="btn btn-secondary">UK1/3</button>
-                  <button type="button" class="btn btn-secondary">UK4-7</button>
-                  <button type="button" class="btn btn-secondary">UK_-11</button>
-                  <button type="button" class="btn btn-secondary">k0/2</button>
-                  <button type="button" class="btn btn-secondary">k3/5</button>
-                  <button type="button" class="btn btn-secondary">k6/8</button>
-                  <button type="button" class="btn btn-secondary">k9/11</button>
-                </div>
-              </div>
+
+
+        <div class="container-fluid mt-5">
+            <section class="row mt-5">
+              <h1 class="col-12 mt-5">Chaussettes de ville</h1>
+            </section>
+            <section class="row mt-2  hidden-lg-up">
+                  <button type="button" class="btn btn-secondary size">Toutes</button>
+                  <button type="button" class="btn btn-secondary size">31/35</button>
+                  <button type="button" class="btn btn-secondary size">36/41</button>
+                  <button type="button" class="btn btn-secondary size">42/46</button>
+                  <button type="button" class="btn btn-secondary size">15/18</button>
+                  <button type="button" class="btn btn-secondary size">19/22</button>
+                  <button type="button" class="btn btn-secondary size">23/26</button>
+                  <button type="button" class="btn btn-secondary size">27/30</button>
+            </section>
+            <section class="row fixed-bottom align-items-end btn-group-vertical hidden-lg-down">
+                  <button type="button" class="btn btn-secondary size col-1">Toutes</button>
+                  <button type="button" class="btn btn-secondary size col-1">31/35</button>
+                  <button type="button" class="btn btn-secondary size col-1">36/41</button>
+                  <button type="button" class="btn btn-secondary size col-1">42/46</button>
+                  <button type="button" class="btn btn-secondary size col-1">15/18</button>
+                  <button type="button" class="btn btn-secondary size col-1">19/22</button>
+                  <button type="button" class="btn btn-secondary size col-1">23/26</button>
+                  <button type="button" class="btn btn-secondary size col-1">27/30</button>
             </section>
           </div>
 
       <!-- products display -->
-      <div class="container">
+      <div class="container  mt-1">
         <section class="row">
 
           <div class="col-12 col-sm-12 col-md-6">
@@ -207,51 +218,50 @@
       </div>
 
 
-      <footer class="container">
+      <footer class="container mt-5 mb-5">
         <div class="row">
-          <div class="col-sm-6 col-md-6 col-lg-4">
+
+          <div class="col-6 col-sm-6 col-md-6 col-lg-3 text-center">
             <a href="#">
-              <img src="" alt="#" />
+              <img class="img-fluid" src="img/picto/picto-french.png" />
               <p>Fabrication Française</p>
             </a>
           </div>
-          <div class="col-sm-6 col-md-6 col-lg-4">
-            <a href="#">
-              <img src="" alt="#" />
-              <p>Fabrication Française</p>
+
+          <div class="col-6 col-sm-6 col-md-6 col-lg-3 text-center">
+            <a  class="align-items-center" href="#">
+              <img class="img-fluid" src="img/picto/picto-paiement.png" />
+              <p>Paiement sécurisé</p>
             </a>
           </div>
-          <div class="col-sm-6 col-md-6 col-lg-4">
+
+          <div id="footer" class="col-6 col-sm-6 col-md-6 col-lg-3 text-center">
             <a href="#">
-              <img src="" alt="#" />
-              <p>Fabrication Française</p>
+              <img  class="img-fluid" src="img/picto/picto-livraison.png" />
+              <p>Livraison 48/72h</p>
             </a>
           </div>
-          <div class="col-sm-6 col-md-6 col-lg-4">
+
+          <div id="footer" class="col-6 col-sm-6 col-md-6 col-lg-3 text-center">
             <a href="#">
-              <img src="" alt="#" />
-              <p>Fabrication Française</p>
+              <img  class="img-fluid" src="img/picto/picto-location.png" />
+              <p>38, rue Michelet<br />
+                42000 Saint-Etienne<br />
+                04.27.81.58.70
+              </p>
             </a>
           </div>
-          <div class="col-sm-6 col-md-6 col-lg-4">
-            <a href="#">
-              <img src="" alt="#" />
-              <p>Fabrication Française</p>
-            </a>
-          </div>
-          <div class="col-sm-6 col-md-6 col-lg-4">
-            <a href="#">
-              <img src="" alt="#" />
-              <p>Fabrication Française</p>
-            </a>
+
           </div>
         </div>
 
-        <form action="/html/tags/html_form_tag_action.cfm" class="form-inline">
-          <label class="mr-sm-2 mb-0" for="last_name">email</label>
-          <input type="text" class="form-control mr-sm-2 mb-2 mb-sm-0" id="last_name" name="last_name">
-          <button type="submit" class="btn btn-default mt-2 mt-sm-0">Submit</button>
+
+        <form class="row justify-content-center text-center mt-5">
+            <label for="newsletter-input" class="col-12">Newsletter</label>
+            <input placeholder="votre e-mail" class="col-6 form-control" type="text">
+            <input type="submit" value="ok" class="col-2 button_mini btn btn-default">
         </form>
+
       </footer>
 
 
