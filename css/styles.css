@@ -1,0 +1,39 @@
+h1 {
+  color: #555;
+  font-family: "Georgia",Times,serif;
+  font-size: 30px;
+}
+
+.caption p {
+  text-align: center;
+
+  font-family: "Georgia",Times,serif;
+  font-size: 12px;
+  font-style: italic;
+  color: #446;
+}
+
+.logo-img {
+  width: 50%;
+  height: auto;
+
+  max-width: 150px;
+}
+
+.img-fluid img{
+  width: 100%;
+  height: auto;
+
+}
+
+/*
+
+@media (max-width: 576px) {
+
+  .product img {
+    width: 124px;
+    height: auto;
+  }
+
+}
+*/
