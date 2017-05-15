@@ -4,6 +4,20 @@ h1 {
   font-size: 30px;
 }
 
+h2:hover {
+  color: #70ACBF;
+  text-decoration: none; /*customized*/
+}
+
+.author-date-line {
+  color: #BABBB7;
+  font-size: 12px;
+}
+
+.author-date-line span {
+  text-decoration: underline;
+}
+
 .logo-img {
   width: 50%;
   height: auto;
