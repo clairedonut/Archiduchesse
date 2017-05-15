@@ -18,6 +18,36 @@ h2:hover {
   text-decoration: underline;
 }
 
+
+h3 {
+  color: #696969;
+  font-size: 20px;
+  line-height: 1em;
+  padding-left: 4px;
+}
+
+h3 span {
+  display: block;
+  font-style: italic;
+  color: #BABBB7;
+  font-size: 13px;
+}
+
+aside ul li a {
+    border-bottom: 1px dashed #eee !important;
+    width: 100%;
+    color: rgb(112, 172, 191);
+    font-size: 16px;
+}
+
+aside ul li a:hover {
+  color: #454545;
+}
+
+
+
+
+
 .logo-img {
   width: 50%;
   height: auto;
