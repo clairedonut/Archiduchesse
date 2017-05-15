@@ -112,3 +112,11 @@ form, form input, form label, footer a {
     background: rgb(250, 250, 250);
     border-radius: 4px !important;
 }
+
+/* ----------------------- contact âge --------------------------------------------------------------------------------------- */
+
+@media (min-width: 960px) {
+  .order-lg-last {
+    order: 2;
+  }
+}
