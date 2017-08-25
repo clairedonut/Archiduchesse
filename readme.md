@@ -1,11 +1,11 @@
-# Project week 8 
+# Archiduchesse, e-commerce website  
 
-## Objective
+## Description of project 
 
-Replicate  Archiduchesse.com using the Bootstrap framework.
+Reproduction of Archiduchesse.com, a French e-commerce website, using the Bootstrap framework.
 
-## Guidelines 
+## Key elements
 
-* replicate the home page.
-* repliacte the blog page.
-* create a contact page including form and google maps.
+* Responsive site using Boostrap4 grid. 
+* Reproduction of the home and blog pages.
+* Created a contact page which includes a contact form and integrates google maps.
